@@ -12,17 +12,26 @@ locations:
     mappingDefinitions:
       "15":
         database: COLEASCE_DEV
+        schema: DEV
+      "16":
+        database: COLEASCE_DEV
         schema: STAGING
   EXAMPLE:
     mappingDefinitions:
       "15":
         database: SNOWFLAKE_SAMPLE_DATA
         schema: TPCH_SF1
+      "16":
+        database: SNOWFLAKE_SAMPLE_DATA
+        schema: TPCH_SF1
   PRODUCTION:
     mappingDefinitions:
       "15":
-        database: COLEASCE_PROD
-        schema: STAGING
+        database: COLEASCE_DEV
+        schema: PROD
+      "16":
+        database: COLEASCE_DEV
+        schema: PROD
 macros: {}
 packages: {}
 projects: {}
